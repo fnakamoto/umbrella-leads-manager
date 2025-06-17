@@ -1,0 +1,21 @@
+umbrella-leads-manager/
+├── src/
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── lead.py
+│   │   └── user.py
+│   ├── routes/
+│   │   ├── __init__.py
+│   │   ├── lead.py
+│   │   ├── user.py
+│   │   └── automation.py
+│   └── main.py
+├── static/
+│   └── index.html
+├── .env.example
+├── .gitignore
+├── Dockerfile
+├── Procfile
+├── railway.json
+├── README.md
+└── requirements.txt
